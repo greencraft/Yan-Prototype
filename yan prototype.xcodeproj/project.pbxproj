@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCAC138513E9E63F00751FC4 /* LinkRunShieldD1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAC138413E9E63F00751FC4 /* LinkRunShieldD1.png */; };
+		CCAC139113E9F3D300751FC4 /* BGLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAC139013E9F3D300751FC4 /* BGLayer.m */; };
+		CCAC139513E9F5FF00751FC4 /* Hyrule_castle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAC139413E9F5FF00751FC4 /* Hyrule_castle.png */; };
+		CCAC139713E9FE1500751FC4 /* Mastersword_forest.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAC139613E9FE1500751FC4 /* Mastersword_forest.png */; };
+		CCAC139A13EA089E00751FC4 /* Scenemanager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAC139913EA089E00751FC4 /* Scenemanager.m */; };
 		CCC90E3313E8BDA80032DF94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC90E3213E8BDA80032DF94 /* QuartzCore.framework */; };
 		CCC90E3513E8BDA80032DF94 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC90E3413E8BDA80032DF94 /* OpenGLES.framework */; };
 		CCC90E3713E8BDA80032DF94 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC90E3613E8BDA80032DF94 /* OpenAL.framework */; };
@@ -125,6 +130,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCAC138413E9E63F00751FC4 /* LinkRunShieldD1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LinkRunShieldD1.png; sourceTree = "<group>"; };
+		CCAC138F13E9F3D300751FC4 /* BGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGLayer.h; sourceTree = "<group>"; };
+		CCAC139013E9F3D300751FC4 /* BGLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGLayer.m; sourceTree = "<group>"; };
+		CCAC139413E9F5FF00751FC4 /* Hyrule_castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hyrule_castle.png; sourceTree = "<group>"; };
+		CCAC139613E9FE1500751FC4 /* Mastersword_forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mastersword_forest.png; sourceTree = "<group>"; };
+		CCAC139813EA089E00751FC4 /* Scenemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scenemanager.h; sourceTree = "<group>"; };
+		CCAC139913EA089E00751FC4 /* Scenemanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scenemanager.m; sourceTree = "<group>"; };
 		CCC90E2E13E8BDA80032DF94 /* yan prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yan prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC90E3213E8BDA80032DF94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CCC90E3413E8BDA80032DF94 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -422,6 +434,10 @@
 				CCC90F9813E8BDAA0032DF94 /* RootViewController.m */,
 				CCC90FA313E8BFA90032DF94 /* MainLayer.h */,
 				CCC90FA413E8BFA90032DF94 /* MainLayer.m */,
+				CCAC139813EA089E00751FC4 /* Scenemanager.h */,
+				CCAC139913EA089E00751FC4 /* Scenemanager.m */,
+				CCAC138F13E9F3D300751FC4 /* BGLayer.h */,
+				CCAC139013E9F3D300751FC4 /* BGLayer.m */,
 				CCC90F9D13E8BDAA0032DF94 /* GameConfig.h */,
 				CCC90E4313E8BDA80032DF94 /* Resources */,
 				CCC90E5713E8BDA80032DF94 /* libs */,
@@ -433,6 +449,9 @@
 		CCC90E4313E8BDA80032DF94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CCAC139413E9F5FF00751FC4 /* Hyrule_castle.png */,
+				CCAC139613E9FE1500751FC4 /* Mastersword_forest.png */,
+				CCAC138413E9E63F00751FC4 /* LinkRunShieldD1.png */,
 				CCC90E4413E8BDA80032DF94 /* Default.png */,
 				CCC90E4613E8BDA80032DF94 /* fps_images.png */,
 				CCC90E4813E8BDA80032DF94 /* Icon-72.png */,
@@ -817,6 +836,9 @@
 				CCC90E5113E8BDA80032DF94 /* Icon.png in Resources */,
 				CCC90E5313E8BDA80032DF94 /* Icon@2x.png in Resources */,
 				CCC90E5613E8BDA80032DF94 /* iTunesArtwork in Resources */,
+				CCAC138513E9E63F00751FC4 /* LinkRunShieldD1.png in Resources */,
+				CCAC139513E9F5FF00751FC4 /* Hyrule_castle.png in Resources */,
+				CCAC139713E9FE1500751FC4 /* Mastersword_forest.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,6 +947,8 @@
 				CCC90F9613E8BDAA0032DF94 /* AppDelegate.m in Sources */,
 				CCC90F9913E8BDAA0032DF94 /* RootViewController.m in Sources */,
 				CCC90FA513E8BFA90032DF94 /* MainLayer.m in Sources */,
+				CCAC139113E9F3D300751FC4 /* BGLayer.m in Sources */,
+				CCAC139A13EA089E00751FC4 /* Scenemanager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,6 +1044,7 @@
 				CCC90FA213E8BDAA0032DF94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

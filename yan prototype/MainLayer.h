@@ -14,9 +14,9 @@
 #define LOGTHIS {(CCLOG(@"\t\t[%@ - %@]", self, NSStringFromSelector(_cmd)));}
 
 @interface MainLayer : CCLayer {
+    CCSprite *player;
+    CGPoint location;
     
 }
-
-+ (CCScene *) scene;
 
 @end
