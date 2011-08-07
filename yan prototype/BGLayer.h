@@ -10,7 +10,13 @@
 #import "cocos2d.h"
 
 @interface BGLayer : CCLayer {
+    CCTMXTiledMap *_tileMap;
+    CCTMXLayer *_background;
+    
     
 }
+
+@property (nonatomic, retain) CCTMXTiledMap *tileMap;
+@property (nonatomic, retain) CCTMXLayer *background;
 
 @end

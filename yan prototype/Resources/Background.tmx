@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../Documents/Xcode/yan_prototype/yan prototype/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1WFrwjAQBuBz+yTCnM5t6maa6Vacgvb//zovmNLjSLohSYrwfnigStrc20tSQ0QGAAAAACARy1ZsncDHAPXXbO+vv9g2gd0AGcyd53AZrPovZY7G03PcW46pkCuD9Wrq1laufpRaX1XmHE3mnhg/RyV68ssOET+q1u+esUd29myBHKGe6PUX69UuMk7LvUd0Dp3FqvraXm3FO4/tu1J7Qvbgv3vRfWOe/Lt9pu6bM2QG2QN9rozYg/Aocryxd7YUOWLj9XrVZ2MKVtDvdcwWbM5e2UTkOKn+xMbLsyPX+dvWL+eQ84xFLe113/NC42s1R6k1VlN3BrtaPum6RjaqH3q/mJ7xjXhmiQyunqmoa0bXNdJ6+SNHbHxoj+TMcOvY0L37QN2l+uFYdW1vvDf0eygVhb+LAAAAAAAAACVcAGZBJoc=
+  </data>
+ </layer>
+</map>
